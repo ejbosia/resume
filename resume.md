@@ -1,104 +1,54 @@
-<h1 style="text-align: center;">Evan Bosia</h1>
+# Evan Bosia
 
-<table style="width:80%; text-align:center; margin:auto;">
-  <tr>
-    <td>Cambridge, MA</td>
-    <td>ejbosia@gmail.com</td>
-    <td>978-496-7220</td>
-    <td><a href="https://www.linkedin.com/in/evanbosia/">https://www.linkedin.com/in/evanbosia/</a></td>
-  </tr>
-</table>
+Cambridge, MA | ejbosia@gmail.com | 978-496-7220 | https://www.linkedin.com/in/evanbosia/
 
 ## Summary
-Robotics software engineer with experience in machine vision, distributed systems, and hardware integration. Leverages a diverse technical background to solve complex problems and deliver reliable, high-performance robotic systems.
+Robotics software engineer with experience in machine vision, distributed systems, and hardware integration. Leverages a diverse technical background to solve complex problems and deliver reliable, maintainable, and high-performance robotic systems.
 
 ## Technical Skills
 
- - **Languages**: Python (advanced), C++, C, C#, Bash, G-code, Beckhoff TwinCAT, B&R
- - **Robotics & AI**: machine vision, machine learning, distributed systems, control systems
- - **Software Development**: Object-oriented design, unit testing, Git, GitLab, debuggers, Postgres, OpenCV, Linux, ROS
- - **Engineering & Hardware**: CAD (SolidWorks/Onshape), 3D printing, CNC milling, laser cutting, soldering, motor tuning
+Programming Languages | Python, C++, C, C#  
+Robotics & Machine Vision | machine vision, machine learning, distributed systems, control systems, ROS2, OpenCV  
+Software Development | Git, GitLab CI/CD, unit testing, debuggiing, object-oriented programming, Postgres (SQL), Windows, Linux  
+Industrial Control | Beckhoff TwinCAT, B&R, Structured Text, G-code  
+Engineering & Hardware | SolidWorks, motor tuning, 3D printing, CNC milling, laser cutting, soldering
 
 ## Experience
 
-<table style="width:100%;">
-  <tr>
-    <td><strong>Software Engineer IV - Kasalis</strong></td>
-    <td align="right">February 2025 – Present</td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <ul>
-        <li> Led software development for an LCOS and LED alignment machine that shipped on schedule. </li>
-        <li> Defined requirements, created specs, and reviewed code with junior engineers. </li>
-        <li> Designed scalable configuration and calibration systems to support multiple machines. </li>
-        <li> Improved the performance and stability of the node-based architecture by migrating components to use  logical clocks to determine status message validity. </li>
-        <li> Developed custom G-code generation tools to allow technicians to generate paths easily from TOML. </li>
-      </ul>
-    </td>
-  </tr>
-</table>
+### Software Engineer IV | Kasalis
+**February 2025 – Present**
 
-<table style="width:100%;">
-  <tr>
-    <td><strong>Software Engineer III - Kasalis</strong></td>
-    <td align="right">November 2022 – February 2025</td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <ul>
-        <li> Led software development for an alignment machine that achieved 50% cycle time improvement and passed the site acceptance test. Worked with the customer to define machine requirements and features. </li>
-        <li> Created C++ DLLs and Python modules to Interface with cameras and other hardware. </li>
-        <li> Converted an existing alignment machine into a screening tool by predicting the convergence of a lens with a single scan. Seven of these machines were shipped and used in production. </li>
-        <li> Integrated customer feature requests into existing, mature code. </li>
-      </ul>
-    </td>
-  </tr>
-</table>
+* Led software development on a cross-functional team to develop an LCOS and LED alignment machine, resulting in the product's on-schedule launch.
+* Collaborated closely with Process Engineers to define requirements for future machine configuration; restructured configuration file architecture to support multi-machine deployment, and created a Python module to validate TOML file contents.
+* Defined technical requirements and authored high-level design specifications used by the broader team, mentoring junior engineers on best practices and code review standards.
+* Refactored the hardware control node and TwinCAT function blocks to use message sequencing mechanism (logical clocks), eliminating 100% of race conditions in hardware control messaging.
 
-<table style="width:100%;">
-  <tr>
-    <td><strong>Software Engineer - RightHand Robotics</strong></td>
-    <td align="right">October 2021 – October 2022</td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <ul>
-        <li> Eliminated 90% of post-pick gripper-workspace collisions by adjusting robot pathing behavior. </li>
-        <li> Created custom Python and Bash tooling for robot performance analysis and debugging. </li>
-        <li> Solved difficult bugs involving arm-trajectory smoothing, collisions, and race conditions. </li>
-      </ul>
-    </td>
-  </tr>
-</table>
+### Software Engineer III | Kasalis
+**November 2022 – February 2025**
 
-<table style="width:100%;">
-  <tr>
-    <td><strong>R&D Engineer - Formultrix</strong></td>
-    <td align="right">August 2017 – August 2020</td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <ul>
-        <li> Increased the rate of a critical step in plate production by 500% by developing a robotic “poking” tool.  - Developed a Windows Form app with C# and OpenCV for ease of use by production. </li>
-        <li> Created a script to process images of fluorescent sample grids into PCR concentration results. This was run on a Raspberry Pi with OpenCV for image processing and Pandas for data analysis. </li>
-        <li> Prototyped QC tool combining OpenCV for feature extraction and Scikit-learn for scoring. Built an image labeling program using C# with Windows Forms to generate training data. </li>
-        <li> Handled onsite engineering support requests for the Constellation dPCR system. </li>
-      </ul>
-    </td>
-  </tr>
-</table>
+* Led software development of a hybrid alignment and test machine achieving a 50% cycle time reduction and successfully passing the site acceptance test.
+* Refactored the legacy code base for multi-station functionality and future extensibility; standardized the codebase by implementing pytest unit testing, docstrings, and automated documentation using Sphinx.
+* Engineered C++ DLLs, Python modules, and cffi wrappers to interface hardware; implemented standardized drivers for IDS Peak cameras, a Vötsch temperature chamber, and a programmable power supply using the NI-VISA protocol.
+* Developed a predictive screening algorithm by refactoring the alignment process to estimate lens convergence from a single scan; implemented across seven production machines deployed globally.
+
+### Software Engineer | RightHand Robotics
+**October 2021 – October 2022**
+* Eliminated 90% of post-pick gripper-workspace collisions by adjusting robot pathing behavior.
+* Created custom Python and Bash tooling for robot performance analysis and debugging.
+* Solved difficult bugs involving arm-trajectory smoothing, collisions, and race conditions.
+
+### R&D Engineer | Formultrix
+**August 2017 – August 2020**
+* Increased the rate of a critical step in plate production by 500% by developing a robotic "poking" tool.
+* Developed a production-facing Windows Form app using C# and OpenCV to provide an intuitive interface for the robotic tool.
+* Developed a script utilizing Raspberry Pi, OpenCV, and Pandas to process fluorescent sample grids and calculate PCR concentration results.
+* Prototyped a QC scoring tool combining OpenCV for feature extraction and Scikit-learn; built an image labeling program using C# with Windows Forms to generate training data.
+* Handled onsite engineering support requests for the Constellation dPCR system.
 
 ## Education
 
-<table style="width:100%;">
-  <tr>
-    <td><strong>Master of Science (M.S.) in Computer Science - Boston University</strong></td>
-    <td align="right">August 2020 – July 2021</td>
-  </tr>
-  <tr>
-    <td><strong>Bachelor of Science (B.S.) in Robotics and Mechanical Engineering - Worcester Polytechnic Institute</strong></td>
-    <td align="right">August 2013 – May 2017</td>
-  </tr>
-</table>
+### M.S. in Computer Science | Boston University
+**August 2020 – July 2021**
 
+### Dual B.S. in Robotics and Mechanical Engineering | Worcester Polytechnic Institute
+**August 2013 – May 2017**
