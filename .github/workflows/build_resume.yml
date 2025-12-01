@@ -7,16 +7,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 🔄 Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: ⬇️ Pull official Pandoc/LaTeX Docker Image
+      - name: Pull Pandoc/LaTeX Docker Image
         run: docker pull pandoc/latex
 
-      - name: 🔨 Generate PDF from Markdown using official Docker image
+      - name: Generate PDF from Markdown using official Docker image
         run: |
           docker run --rm \
             -v ${{ github.workspace }}:/data \
             pandoc/latex \
             --include-in-header=header.tex \
             --pdf-engine=xelatex resume.md -o evanbosia_resume.pdf
+
+      - name: Upload Resume
+              uses: actions/upload-artifact@v4
+              with:
+                name: evanbosia_resume
+                path: evanbosia_resume.pdf
