@@ -18,5 +18,5 @@ jobs:
           docker run --rm \
             -v ${{ github.workspace }}:/data \
             pandoc/latex \
-            --include-in-header=preamble.tex \
+            --include-in-header=header.tex \
             --pdf-engine=xelatex resume.md -o evanbosia_resume.pdf
