@@ -10,7 +10,7 @@ Robotics software engineer with experience in machine vision, distributed system
 
 **Programming Languages** | Python, C++, C, C#  
 **Robotics** | ROS2, machine vision, machine learning, distributed systems, control systems, OpenCV  
-**Software Development** | Git, GitLab CI/CD, unit testing, debugging, object-oriented programming, Postgres (SQL), Windows, Linux  
+**Software Development** | Git, GitLab CI/CD, unit testing, debugging, object-oriented programming, Markdown, Postgres (SQL), Windows, Linux  
 **Industrial Control** | Beckhoff TwinCAT, B&R, Structured Text, G-code, RTOS  
 **Engineering & Hardware** | SolidWorks, motor tuning, 3D printing, CNC milling, laser cutting, soldering
 

@@ -2,7 +2,10 @@ name: Build Resume PDF
 
 on:
   push:
-
+    branches:
+      - main
+    paths:
+      - 'resume.md' # Only runs when the source file changes
 jobs:
   build:
     runs-on: ubuntu-latest
