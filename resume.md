@@ -50,5 +50,7 @@ Robotics software engineer with experience in machine vision, distributed system
 
 ## Education
 ### M.S. in Computer Science | Boston University
+**August 2020 – July 2021**
 
 ### B.S. in Robotics and Mechanical Engineering | Worcester Polytechnic Institute
+**September 2013 – May 2017**
