@@ -44,7 +44,7 @@ Robotics software engineer specializing in bringing complex robotic systems, oft
 **August 2017 – August 2020**
 
 * Engineered a robotic "poking" tool to automate a manual production step, increasing the rate by 500%. Controlled the system via a C# Windows Forms application and used OpenCV for target detection.
-* Developed a Python script utilizing OpenCV to calculate PCR concentration results by analyzing fluorescent sample grids; this was deployed on a Raspberry Pi. 
+* Developed a Python script utilizing OpenCV to calculate PCR concentration results by analyzing fluorescent sample grids, deployed on a Raspberry Pi.
 * Implemented a QC scoring tool combining OpenCV for feature extraction and Scikit-learn. Built an image labeling program using C# with Windows Forms to generate training data.
 * Provided Tier-2 onsite engineering support for the Constellation dPCR system, resolving complex hardware/software issues through debugging, soldering, and software support ticketing to maintain high customer satisfaction.
 * Prototyped a high-speed plate transfer tool to resolve a process bottleneck. Designed components using SolidWorks, fabricated parts via CNC milling, and controlled motion with pneumatics and an Arduino, achieving a rapid 10-minute amplification time.
