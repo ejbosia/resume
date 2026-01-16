@@ -29,8 +29,8 @@ Robotics software engineer specializing in bringing complex robotic systems, oft
 
 * Led software development of an LCoS alignment machine achieving a 50% cycle time reduction and successfully passing the site acceptance test.
 * Refactored the legacy codebase for multi-station functionality and future extensibility. Standardized the codebase by implementing pytest unit tests, docstrings, and automated Sphinx documentation.
-* Engineered C++ DLLs, Python modules, and cffi wrappers to interface with hardware; implemented drivers for IDS Peak cameras, a Vötsch temperature chamber, and a programmable power supply using the NI-VISA protocol.
-* Developed a predictive screening algorithm to estimate lens convergence from a single scan; deployed this algorithm across seven machines in production.
+* Engineered C++ DLLs, Python modules, and cffi wrappers to interface with hardware. Implemented drivers for IDS Peak cameras, a Vötsch temperature chamber, and a programmable power supply using the NI-VISA protocol.
+* Developed a predictive screening algorithm to estimate lens convergence from a single scan. Deployed this algorithm across seven new machines in production.
 * Supported legacy production machines by collaborating remotely with factory technicians to debug issues and deploy updates.
 
 ### Software Engineer | RightHand Robotics
