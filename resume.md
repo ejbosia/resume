@@ -9,9 +9,9 @@ Robotics software engineer specializing in bringing complex robotic systems, oft
 ## Technical Skills
 
 **Programming Languages** | Python, C++, C, C#  
-**Robotics** | Pub-sub middleware, distributed systems, control systems, machine vision (OpenCV), ROS2 (self-study)  
+**Robotics** | Pub-sub middleware, distributed systems, control systems, machine vision (OpenCV), ROS 2 (self-study)  
 **Software Development** | Git, GitLab CI/CD, unit testing (pytest), debugging, OOP, Markdown, Postgres (SQL), Windows, Linux  
-**Industrial Control** | Beckhoff TwinCAT, B&R, Structured Text, G-code, RTOS  
+**Industrial Control** | Beckhoff TwinCAT (EtherCAT), B&R, Structured Text, G-code  
 **Engineering & Hardware** | SolidWorks, motor tuning, 3D printing, CNC milling, laser cutting, soldering
 
 ## Experience
