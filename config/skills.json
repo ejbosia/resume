@@ -1,0 +1,51 @@
+{
+  "skills": [
+    {
+      "label": "Programming Languages",
+      "items": ["Python", "C++", "C", "C#"]
+    },
+    {
+      "label": "Robotics",
+      "items": [
+        "Pub-sub middleware",
+        "control systems",
+        "machine vision (OpenCV)",
+        "kinematics",
+        "ROS 2 (self-study)"
+      ]
+    },
+    {
+      "label": "Software Development",
+      "items": [
+        "Git",
+        "CI/CD (GitLab)",
+        "SDLC",
+        "unit testing (pytest)",
+        "debugging",
+        "OOP",
+        "Markdown",
+        "SQL (Postgres)",
+        "Windows",
+        "Linux"
+      ]
+    },
+    {
+      "label": "Industrial Control",
+      "items": [
+        "Beckhoff TwinCAT (EtherCAT)",
+        "B&R",
+        "Structured Text",
+        "G-code"
+      ]
+    },
+    {
+      "label": "Engineering & Hardware",
+      "items": [
+        "CAD (SolidWorks, Onshape)",
+        "motor tuning (stepper/servo)",
+        "sensors",
+        "prototyping (CNC, 3D printing, soldering)"
+      ]
+    }
+  ]
+}

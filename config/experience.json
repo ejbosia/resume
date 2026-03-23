@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": "kasalis_se_iv",
+      "company": "Kasalis",
+      "title": "Software Engineer IV",
+      "dates": "February 2025 – January 2026",
+      "items": [
+        "Led software development on a cross-functional team delivering a vehicle heads-up display alignment machine on schedule.",
+        "Standardized application logic templates and restructured config file architecture to enable scalable and efficient machine deployment.",
+        "Streamlined dispense path generation by implementing TOML configuration, whole-path modifiers, and simulated path visualization.",
+        "Defined design specifications and reviewed code for junior engineers, emphasizing readability and maintainability.",
+        "Refactored the hardware control node and TwinCAT function blocks to use logical clocks, eliminating race conditions in hardware control messaging."
+      ]
+    },
+    {
+      "id": "kasalis_se_iii",
+      "company": "Kasalis",
+      "title": "Software Engineer III",
+      "dates": "November 2022 – February 2025",
+      "items": [
+        "Led software development of an augmented reality headset alignment machine achieving a 50% cycle time reduction and successfully passing the site acceptance test.",
+        "Refactored the legacy codebase for multi-station functionality and future extensibility. Standardized the codebase by implementing pytest unit tests, docstrings, and automated Sphinx documentation.",
+        "Engineered C++ DLLs, Python modules, and cffi wrappers to interface with hardware. Implemented drivers for IDS Peak cameras, a Vötsch temperature chamber, and a programmable power supply using the NI-VISA protocol.",
+        "Developed a predictive screening algorithm to estimate lens convergence from a single scan. Deployed this algorithm across seven machines in production.",
+        "Supported legacy production machines by collaborating remotely with factory technicians to debug issues and deploy updates."
+      ]
+    },
+    {
+      "id": "righthand_se",
+      "company": "RightHand Robotics",
+      "title": "Software Engineer",
+      "dates": "October 2021 – October 2022",
+      "items": [
+        "Configured workspace models and waypoints for UR arms to ensure reliable pick performance in unique customer workcells. Validated workcell performance through on-robot testing.",
+        "Optimized post-pick behavior to eliminate 90% of gripper-tote collisions, increasing pick reliability.",
+        "Created custom Python and Bash tooling within a Linux environment for performance analysis and debugging.",
+        "Solved difficult bugs involving arm-trajectory smoothing, collisions, and race conditions by performing hands-on diagnostics on the robots."
+      ]
+    },
+    {
+      "id": "formulatrix_rnd",
+      "company": "Formulatrix",
+      "title": "R&D Engineer",
+      "dates": "August 2017 – August 2020",
+      "items": [
+        "Engineered a robotic poking tool to automate a manual production step, increasing the rate by 500%. Controlled the system via a C# Windows Forms application and used OpenCV for target detection.",
+        "Developed a Python script utilizing OpenCV to calculate PCR concentration results by analyzing fluorescent sample grids, deployed on a Raspberry Pi.",
+        "Implemented a QC scoring tool combining OpenCV for feature extraction and Scikit-learn. Built an image labeling program using C# with Windows Forms to generate training data.",
+        "Provided Tier-2 onsite engineering support for the Constellation dPCR system, resolving complex hardware/software issues through debugging, soldering, and software support ticketing to maintain high customer satisfaction.",
+        "Prototyped a high-speed mechanical thermal cycler reducing amplification time to 10 minutes. Designed components using SolidWorks, fabricated parts via CNC milling, and controlled motion with pneumatics and an Arduino."
+      ]
+    }
+  ]
+}
